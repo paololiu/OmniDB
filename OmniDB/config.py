@@ -36,16 +36,16 @@ CSRF_COOKIE_NAME = 'omnidb_csrftoken'
 
 ### PostgreSQL Database Backend ################################################
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        'NAME': 'dbname',
-#        'USER': 'postgres',
-#        'PASSWORD': '',
-#        'HOST': '127.0.0.1',
-#        'PORT': '5432',
-#    }
-#}
+DATABASES = {
+   'default': {
+       'ENGINE': 'django.db.backends.postgresql_psycopg2',
+       'NAME': 'omnidb',
+       'USER': 'postgres',
+       'PASSWORD': 'Ze5l#uq7',
+       'HOST': '127.0.0.1',
+       'PORT': '5432',
+   }
+}
 
 ### LDAP Authentication ########################################################
 
